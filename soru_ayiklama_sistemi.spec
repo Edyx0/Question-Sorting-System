@@ -31,8 +31,14 @@ exe = EXE(
     runtime_tmpdir=None,
     console=False,
     disable_windowed_traceback=False,
-    argv_emulation=False,
+    argv_emulation=True,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+)
+app = BUNDLE(
+    exe,
+    name='soru_ayiklama_sistemi.app',
+    icon=None,
+    bundle_identifier='com.edizy.soru-ayiklama-sistemi',
 )

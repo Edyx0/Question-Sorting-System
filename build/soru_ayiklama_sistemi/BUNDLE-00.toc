@@ -1,0 +1,3 @@
+([('soru_ayiklama_sistemi',
+   '/Users/edizy/Documents/GitHub/Question-Sorting-System/dist/soru_ayiklama_sistemi',
+   'EXECUTABLE')],)
